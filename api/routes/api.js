@@ -12,7 +12,7 @@ router.post('/weather', async (req, res) =>
   //takes the city name from the user
   const city = req.body.city;
   //defines the API key
-  const apiKey = 'your-api-key';
+  const apiKey = '6ca51c7258c6146394bceaf573f44bd9';
   //defines the API url
   const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`;
   
